@@ -1,2 +1,40 @@
 .DS_Store
 sql_scripts/.DS_Store
+Backend/.DS_Store
+Backend/core-service/HELP.md
+Backend/core-service/.gradle
+Backend/core-service/build/
+Backend/core-service/!gradle/wrapper/gradle-wrapper.jar
+Backend/core-service/!**/src/main/**/build/
+Backend/core-service/!**/src/test/**/build/
+
+### STS ###
+Backend/core-service/.apt_generated
+Backend/core-service/.classpath
+Backend/core-service/.factorypath
+Backend/core-service/.project
+Backend/core-service/.settings
+Backend/core-service/.springBeans
+Backend/core-service/.sts4-cache
+Backend/core-service/bin/
+Backend/core-service/!**/src/main/**/bin/
+Backend/core-service/!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+Backend/core-service/.idea
+Backend/core-service/*.iws
+Backend/core-service/*.iml
+Backend/core-service/*.ipr
+Backend/core-service/out/
+Backend/core-service/!**/src/main/**/out/
+Backend/core-service/!**/src/test/**/out/
+
+### NetBeans ###
+Backend/core-service//nbproject/private/
+Backend/core-service//nbbuild/
+Backend/core-service//dist/
+Backend/core-service//nbdist/
+Backend/core-service//.nb-gradle/
+
+### VS Code ###
+Backend/core-service/.vscode/

@@ -6,5 +6,5 @@ insert into products (
 	organization_id
 )
 values
-(uuid(), 'English tutorial', 'db067826-de51-11ed-97e6-0242ac110002', 3, 'e9e90aca-de51-11ed-97e6-0242ac110002'),
-(uuid(), 'Spanish dictionary', 'db067826-de51-11ed-97e6-0242ac110002', 2, 'e9e90aca-de51-11ed-97e6-0242ac110002');
+(uuid(), 'English tutorial', (select id from categories where name='Electronics'), 3, (select id from organizations where name='RUS-Export')),
+(uuid(), 'Spanish dictionary', (select id from categories where name='Books'), 2, (select id from organizations where name='RUS-Export'));
